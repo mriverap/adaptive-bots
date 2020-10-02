@@ -7,7 +7,7 @@ using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Extensions.Logging;
 
-namespace EmptyBotAdaptive
+namespace EmptyBotAdaptive.Bots
 {
     public class DialogBot<T> : ActivityHandler
         where T : Dialog
